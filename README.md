@@ -1,6 +1,6 @@
 # Primera
 
-Primera is a final-year software engineering research project with the aim **to develop a machine learning-based early-warning system for predicting depression risk among university students.**
+Primera is a research project with the aim **to develop a machine learning-based early-warning system for predicting depression risk among university students.**
 
 The study compares logistic regression, support vector machines, decision trees, k-nearest neighbours, and random forests against two baselines using 101 survey responses from the [Student Mental health dataset on Kaggle](https://www.kaggle.com/datasets/shariful07/student-mental-health), collected at one Malaysian university. Repeated nested cross-validation separates model tuning from evaluation, with learned preprocessing and SMOTENC confined to training folds. Sensitivity analyses, SHAP, and held-out permutation importance examine the models' reliance on different inputs.
 
