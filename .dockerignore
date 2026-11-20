@@ -1,0 +1,10 @@
+.git
+local
+.venv
+**/__pycache__
+.pytest_cache
+.coverage
+.DS_Store
+.env*
+docs/design/previews
+docs/screenshots

@@ -1,0 +1,4 @@
+data/raw/*.csv -text
+*.png binary
+*.joblib binary
+*.woff2 binary

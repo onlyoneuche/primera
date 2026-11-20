@@ -1,0 +1,6 @@
+{
+  "source": "https://www.kaggle.com/datasets/shariful07/student-mental-health",
+  "download": "https://www.kaggle.com/api/v1/datasets/download/shariful07/student-mental-health",
+  "archive_member": "Student Mental health.csv",
+  "sha256": "c0d1300dd5225b426f91ee75c81e5068efdadf528416628994a5a6e013063f0a"
+}

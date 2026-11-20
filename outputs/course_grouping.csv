@@ -1,0 +1,50 @@
+raw_string,normalised_string,canonical_group,confidence,reason
+ALA,ala,Other,low,Unresolved label; conservatively assigned to Other.
+Accounting ,accounting,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+BCS,bcs,Other,low,Unresolved label; conservatively assigned to Other.
+BENL,benl,Other,low,Unresolved label; conservatively assigned to Other.
+BIT,bit,Other,low,Unresolved label; conservatively assigned to Other.
+Banking Studies,banking studies,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Benl,benl,Other,low,Unresolved label; conservatively assigned to Other.
+Biomedical science,biomedical science,Health sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Biotechnology,biotechnology,Natural and applied sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Business Administration,business administration,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+CTS,cts,Other,low,Unresolved label; conservatively assigned to Other.
+Communication ,communication,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+DIPLOMA TESL,diploma tesl,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Diploma Nursing,diploma nursing,Health sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+ENM,enm,Other,low,Unresolved label; conservatively assigned to Other.
+Econs,econs,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Engine,engine,Other,low,Unresolved label; conservatively assigned to Other.
+Engineering,engineering,Engineering and computing,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Fiqh,fiqh,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Fiqh fatwa ,fiqh fatwa,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Human Resources,human resources,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Human Sciences ,human sciences,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+IT,it,Engineering and computing,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Irkhs,irkhs,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Islamic Education,islamic education,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Islamic education,islamic education,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+KENMS,kenms,Business and economics,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+KIRKHS,kirkhs,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+KOE,koe,Engineering and computing,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Kirkhs,kirkhs,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Koe,koe,Engineering and computing,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Kop,kop,Health sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Law,law,Law,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Laws,laws,Law,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+MHSC,mhsc,Other,low,Unresolved label; conservatively assigned to Other.
+Malcom,malcom,Other,low,Unresolved label; conservatively assigned to Other.
+Marine science,marine science,Natural and applied sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Mathemathics,mathemathics,Natural and applied sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Nursing ,nursing,Health sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Pendidikan Islam,pendidikan islam,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Pendidikan Islam ,pendidikan islam,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Pendidikan islam,pendidikan islam,Education,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Psychology,psychology,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+Radiography,radiography,Health sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+TAASL,taasl,Other,low,Unresolved label; conservatively assigned to Other.
+Usuluddin ,usuluddin,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+engin,engin,Other,low,Unresolved label; conservatively assigned to Other.
+koe,koe,Engineering and computing,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.
+psychology,psychology,Humanities and social sciences,high,Literal discipline or abbreviation supplied by the build spec; review against source strings.

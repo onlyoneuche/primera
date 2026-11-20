@@ -1,0 +1,80 @@
+{
+  "browser": "157.0.8103.80",
+  "browser_channel": "chrome",
+  "viewports": {
+    "phone": {
+      "width": 390,
+      "height": 844
+    },
+    "desktop": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "screenshots": [
+    "welcome-phone.png",
+    "welcome-desktop.png",
+    "how-this-works-phone.png",
+    "how-this-works-desktop.png",
+    "choice-question-phone.png",
+    "choice-question-desktop.png",
+    "age-question-phone.png",
+    "age-question-desktop.png",
+    "error-state-phone.png",
+    "error-state-desktop.png",
+    "faculty-question-phone.png",
+    "faculty-question-desktop.png",
+    "cgpa-question-phone.png",
+    "cgpa-question-desktop.png",
+    "loading-phone.png",
+    "loading-desktop.png",
+    "lower-result-phone.png",
+    "lower-result-desktop.png",
+    "network-error-phone.png",
+    "network-error-desktop.png",
+    "higher-result-phone.png",
+    "higher-result-desktop.png"
+  ],
+  "privacy": {
+    "local_storage_keys": 0,
+    "session_storage_keys": 0,
+    "indexed_databases": 0,
+    "cookies": 0,
+    "third_party_requests": 0,
+    "javascript_errors": 0
+  },
+  "real_model_categories_checked": [
+    "lower",
+    "higher"
+  ],
+  "checks": [
+    "keyboard_only_phone_flow",
+    "back_preserves_selection",
+    "validation",
+    "cgpa_mapping",
+    "restart_clearing",
+    "result_focus",
+    "dialog_focus_restoration",
+    "retry",
+    "age_and_year_notes",
+    "prediction_no_store",
+    "no_horizontal_overflow",
+    "48px_touch_targets"
+  ],
+  "asset_sha256": {
+    "app/static/css/styles.css": "f3ae7bd99d4c77e67c41580db3ee87ce02698bf049560858c586df5a938f6cf6",
+    "app/static/fonts/Bricolage-OFL.txt": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba",
+    "app/static/fonts/Figtree-OFL.txt": "140d37233e7f3ce7313798befa9600893bcceaf41a55fa0fa5ad52f7f657a268",
+    "app/static/fonts/bricolage-latin.woff2": "4fd48b2c1ab27220e71f15f990550261b35245c3bdfd8d8025b4bdac0459ee2d",
+    "app/static/fonts/figtree-latin.woff2": "8330490a01c60c196eae00b823de8102275aaa5862e7b76a7af21b8745338928",
+    "app/static/fonts/sources.json": "e85db3b3312b7d1b12211ba256b274e119601c2f8e6268191349fc9a88e981a1",
+    "app/static/img/chevron.svg": "c2c5c59c7fad85709a4a5cad0c396f64d19fd7796959aaa65fef5fb8968d21b0",
+    "app/static/img/favicon.svg": "63176dd5755e1ac10d0d12e507c46fc8cc69f3f1216686195c7da221855a5057",
+    "app/static/img/higher.svg": "1ebf1096f6828f24a3d3ac6d7f65d9dbf7d0baff3eb2e4348d678c58f5f0e2ad",
+    "app/static/img/lower.svg": "af65328c569013df206671dfe955f554fa1ef1cee3ddc153e8dd93a4f395bb1c",
+    "app/static/img/support.svg": "6a4cfe6ee5d16f28a6f6e82ddc08328d5fca42c542cc6cca005d05bff0e38580",
+    "app/static/img/welcome.svg": "4d968471f08250f81ad424c1d533634ff77526e63c14c5f72925c76d68a747f9",
+    "app/static/index.html": "f54d29303fbc96d02d9b97c1feefcc1f2d6d32d000fd9668b865d5eaf8f53371",
+    "app/static/js/app.js": "eb24fc79a7e2f3c17fd7cecadd8f5c6483011d567dd91b9a7b5751ed8b8aef96"
+  }
+}

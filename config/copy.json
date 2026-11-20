@@ -1,0 +1,226 @@
+{
+  "app_title": "Student check-in",
+  "welcome": {
+    "title": "How are you doing lately?",
+    "body": "Nine quick questions to see whether talking to someone might help. No sign-in, and nothing you enter is saved.",
+    "start": "Start check-in",
+    "small": "Takes about two minutes. This is a screening tool, not a diagnosis."
+  },
+  "questions": [
+    {
+      "key": "gender",
+      "prompt": "How do you describe your gender?",
+      "helper": "The data this tool learned from only included these two options.",
+      "error": "Choose your gender.",
+      "options": [
+        {
+          "value": "female",
+          "label": "Female"
+        },
+        {
+          "value": "male",
+          "label": "Male"
+        }
+      ]
+    },
+    {
+      "key": "age",
+      "prompt": "How old are you?",
+      "helper": "In years.",
+      "error": "Enter your age in years, from 16 to 60.",
+      "kind": "number"
+    },
+    {
+      "key": "faculty_group",
+      "prompt": "Which faculty or course group are you in?",
+      "helper": "Pick the closest match.",
+      "error": "Choose your faculty or course group.",
+      "kind": "select"
+    },
+    {
+      "key": "year",
+      "prompt": "Which year of study are you in?",
+      "error": "Choose your year of study.",
+      "options": [
+        {
+          "value": 1,
+          "label": "Year 1"
+        },
+        {
+          "value": 2,
+          "label": "Year 2"
+        },
+        {
+          "value": 3,
+          "label": "Year 3"
+        },
+        {
+          "value": 4,
+          "label": "Year 4 or above"
+        }
+      ]
+    },
+    {
+      "key": "cgpa_band",
+      "prompt": "What is your CGPA band?",
+      "helper": "Pick the band that fits best.",
+      "error": "Choose your CGPA band.",
+      "kind": "cgpa"
+    },
+    {
+      "key": "married",
+      "prompt": "What is your marital status?",
+      "error": "Choose your marital status.",
+      "options": [
+        {
+          "value": false,
+          "label": "Single"
+        },
+        {
+          "value": true,
+          "label": "Married"
+        }
+      ]
+    },
+    {
+      "key": "anxiety",
+      "prompt": "Do you experience anxiety?",
+      "error": "Answer yes or no.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "key": "panic",
+      "prompt": "Do you experience panic attacks?",
+      "error": "Answer yes or no.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "key": "specialist",
+      "prompt": "Have you sought help from a specialist, such as a counsellor or doctor?",
+      "error": "Answer yes or no.",
+      "options": [
+        {
+          "value": true,
+          "label": "Yes"
+        },
+        {
+          "value": false,
+          "label": "No"
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "next": "Continue",
+    "back": "Back",
+    "retry": "Try again",
+    "restart": "Check in again",
+    "close": "Close",
+    "choose": "Choose an option",
+    "progress": "Question {current} of {total}",
+    "scale": "CGPA scale",
+    "scale4": "4.0 scale",
+    "scale5": "5.0 scale"
+  },
+  "cgpa": {
+    "values": [
+      "0-1.99",
+      "2.00-2.49",
+      "2.50-2.99",
+      "3.00-3.49",
+      "3.50-4.00"
+    ],
+    "labels4": [
+      "0 to 1.99",
+      "2.00 to 2.49",
+      "2.50 to 2.99",
+      "3.00 to 3.49",
+      "3.50 to 4.00"
+    ],
+    "labels5": [
+      "0 to 2.49",
+      "2.50 to 3.12",
+      "3.13 to 3.74",
+      "3.75 to 4.37",
+      "4.38 to 5.00"
+    ],
+    "help": "We convert 5.0-scale bands to the 4.0 scale the model learned from. This is approximate."
+  },
+  "loading": "Looking at your answers…",
+  "results": {
+    "lower": {
+      "label": "Lower risk indicated",
+      "title": "Your answers don't point to raised risk right now",
+      "message": "That can change, and how you feel matters more than any score. If something feels off, reaching out is always okay."
+    },
+    "higher": {
+      "label": "Higher risk indicated",
+      "title": "Your answers suggest it may help to talk to someone",
+      "message": "Lots of students feel this way, and support is available. You don't have to wait until things get worse."
+    }
+  },
+  "disclaimer": "This is a screening result, not a diagnosis.",
+  "model_note": "Based on a model trained on survey responses from students in Malaysia, so it may be less accurate for you.",
+  "out_of_range": {
+    "age": "This tool was trained on students aged 18 to 24, so the result may be less reliable at your age.",
+    "year": "The training data included years 1 to 4 only. If you are beyond year 4, the result may be less reliable."
+  },
+  "saved": "Your answers were not saved.",
+  "errors": {
+    "network": "Check your connection and try again. Your answers are still here for this retry.",
+    "config": "We could not load the check-in. Check your connection and try again.",
+    "request": "Check the required answers and try again.",
+    "unknown": "Remove any extra fields and try again.",
+    "server": "We could not complete the check-in. Please try again.",
+    "network_title": "We couldn’t get your result",
+    "config_title": "Let’s try that again"
+  },
+  "footer": {
+    "about": "How this works",
+    "privacy": "Privacy: nothing is saved."
+  },
+  "about": {
+    "title": "How this works",
+    "sections": [
+      {
+        "title": "A short check-in",
+        "text": "This tool estimates whether your answers look more like students who reported depression in a survey. It is a screening tool and cannot diagnose anything."
+      },
+      {
+        "title": "What it learned from",
+        "text": "101 students at one university in Malaysia in 2020. The target was a single self-reported yes/no answer, not a validated clinical instrument. There were 35 positive responses. The model has not been validated for Nigeria."
+      },
+      {
+        "title": "Who the data represents",
+        "text": "The training data covered ages 18 to 24 and study years 1 to 4. It included only female and male gender options, and CGPA bands on a 4.0 scale. Results may be less reliable outside that coverage."
+      },
+      {
+        "title": "Your privacy",
+        "text": "Your answers go to the server only to produce this result, then they are discarded. Nothing is stored. There is no account and no tracking."
+      },
+      {
+        "title": "What to do next",
+        "text": "If something feels wrong, reach out even if your result says lower risk."
+      }
+    ]
+  },
+  "javascript_required": "Turn on JavaScript to use this check-in. Nothing you enter is saved."
+}

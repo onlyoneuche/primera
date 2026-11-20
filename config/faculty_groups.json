@@ -1,0 +1,13 @@
+{
+  "groups": [
+    "Engineering and computing",
+    "Natural and applied sciences",
+    "Health sciences",
+    "Business and economics",
+    "Humanities and social sciences",
+    "Law",
+    "Education",
+    "Other"
+  ],
+  "minimum_training_count": 5
+}

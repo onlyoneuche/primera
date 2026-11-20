@@ -1,0 +1,32 @@
+{
+  "heading": "Talk to someone",
+  "verification_note": "Contact details still need personal verification before launch.",
+  "items": [
+    {
+      "id": "emergency",
+      "name": "Emergency services",
+      "note": "If you or someone else is in immediate danger.",
+      "tel": "112",
+      "display": "112",
+      "verified_on": null,
+      "source": "Owner-supplied build spec section 8.5; personal verification pending"
+    },
+    {
+      "id": "surpin",
+      "name": "SURPIN helpline",
+      "note": "Mental health support, available 24 hours.",
+      "tel": "+2348000787746?oai_link_source=model_response_hotline",
+      "display": "0800 078 7746",
+      "verified_on": null,
+      "source": "Connected local-hotline lookup, 20 November 2026; https://www.surpinng.com/; personal verification pending"
+    },
+    {
+      "id": "miva",
+      "name": "For Miva learners",
+      "note": "Open the Guidance and Counselling course in the LMS to book a counsellor, or email the Success team.",
+      "mailto": "success@miva.university",
+      "verified_on": null,
+      "source": "Owner-supplied build spec section 8.5: Miva support article, Accessing counselling and wellbeing support; personal verification pending"
+    }
+  ]
+}

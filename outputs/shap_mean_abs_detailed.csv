@@ -1,0 +1,15 @@
+feature,mean_abs_shap,rank
+married,0.14695691374248335,1
+anxiety,0.1033528869329466,2
+gender,0.07711118942250737,3
+year,0.057776490609613124,4
+faculty_group=Other,0.05712894088789199,5
+age,0.042914957307606846,6
+cgpa_band,0.03648947626329981,7
+specialist,0.02898608900446306,8
+faculty_group=Health sciences,0.02135496675138865,9
+faculty_group=Education,0.015034748360617977,10
+panic,0.013405542752833736,11
+faculty_group=Business and economics,0.010796657543040242,12
+faculty_group=Humanities and social sciences,0.005298199278466289,13
+faculty_group=Engineering and computing,0.004822460216995298,14
